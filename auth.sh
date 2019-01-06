@@ -20,7 +20,7 @@ TEMP_ENV=`uuidgen`
 
 echo "vpnpanel app:env:get-env" > /tmp/$TEMP_ENV
 
-source $TEMP_ENV
+source /tmp/$TEMP_ENV
 
 ## DO THE AUTHENTICATION ##
 # PANEL_URL = $PANEL_URL
